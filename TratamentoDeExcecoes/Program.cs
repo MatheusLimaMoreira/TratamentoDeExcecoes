@@ -1,30 +1,23 @@
-﻿namespace TratamentoDeExcecoes
+﻿using TratamentoDeExcecoes.Entities;
+
+namespace TratamentoDeExcecoes
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            try
-            {
-                // Exceção de divisão por zero
-                int n1 = int.Parse(Console.ReadLine());
-                int n2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Room number: ");
+            int roomNumber = int.Parse(Console.ReadLine());
+            Console.WriteLine("Check-in date (dd/MM/yyyy): ");
+            DateTime checkIn = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine("Check-out date (dd/MM/yyyy): ");
+            DateTime checkOut = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine("Reservation: ");
 
-                int resultado = n1 / n2;
-                Console.WriteLine(resultado);
-            }
-            catch (DivideByZeroException e)
-            {
-                Console.WriteLine("Error! " + e.Message);
-            }
-            catch (FormatException e)
-            {
-                Console.WriteLine("Format Error! " + e.Message);
-            }           
-            finally
-            {
-                Console.WriteLine("Finalizando o programa.");
-            }
-        }   
+            Reservation reservation = new Reservation(roomNumber, checkIn, checkOut);
+
+              
+
+        }
     }
 }
