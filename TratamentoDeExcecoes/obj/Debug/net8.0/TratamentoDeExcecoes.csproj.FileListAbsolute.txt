@@ -12,3 +12,4 @@ C:\ESTUDOS\DEV\C#\CursoC#\Projetos\TratamentoDeExcecoes\TratamentoDeExcecoes\obj
 C:\ESTUDOS\DEV\C#\CursoC#\Projetos\TratamentoDeExcecoes\TratamentoDeExcecoes\obj\Debug\net8.0\TratamentoDeExcecoes.pdb
 C:\ESTUDOS\DEV\C#\CursoC#\Projetos\TratamentoDeExcecoes\TratamentoDeExcecoes\obj\Debug\net8.0\TratamentoDeExcecoes.genruntimeconfig.cache
 C:\ESTUDOS\DEV\C#\CursoC#\Projetos\TratamentoDeExcecoes\TratamentoDeExcecoes\obj\Debug\net8.0\ref\TratamentoDeExcecoes.dll
+C:\ESTUDOS\DEV\C#\CursoC#\Projetos\TratamentoDeExcecoes\TratamentoDeExcecoes\obj\Debug\net8.0\TratamentoDeExcecoes.sourcelink.json

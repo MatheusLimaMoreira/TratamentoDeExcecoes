@@ -20,7 +20,11 @@
             catch (FormatException e)
             {
                 Console.WriteLine("Format Error! " + e.Message);
-            }            
+            }           
+            finally
+            {
+                Console.WriteLine("Finalizando o programa.");
+            }
         }   
     }
 }
